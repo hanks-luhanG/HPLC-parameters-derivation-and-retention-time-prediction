@@ -38,11 +38,11 @@ where $\varphi_0$ is the initial organic volume fraction and $B$ is the gradient
 
 Elution Condition: The elution point is reached when the cumulative migration distance equals the column length ($L$). The predicted retention time ($t_{\text{R}}$) is determined by solving the integral form of the migration equation:
 
-$$\int_{0}^{t_{\text{R}}} \frac{u}{1 + k(\varphi(t))} \, dt = L$$
+$$\int_{0}^{t_{\text{R}}} \frac{u}{1 + k(\varphi(t))} \ dt = L$$
 
 Optimization Strategy: Unlike conventional methods that minimize temporal residuals, parameter estimation in this study is performed by minimizing the Sum of Squared Errors (SSE) relative to the column length ($L$). This objective function ensures that the fundamental transport equation is satisfied at each experimentally observed retention time ($t_{R,\text{exp},i}$):
 
-$$SSE = \sum_{i=1}^{n} \left( \int_{0}^{t_{R,\text{exp},i}} \frac{u}{1 + k(\varphi(t))} \, dt - L \right)^2$$
+$$SSE = \sum_{i=1}^{n} \left( \int_{0}^{t_{R,\text{exp},i}} \frac{u}{1 + k(\varphi(t))} \ dt - L \right)^2$$
 
 🛠️ Prerequisites
 To run these scripts, you need R v4.4.2 or higher with the following packages installed:
