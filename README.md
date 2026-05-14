@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1237460872.svg)](https://doi.org/10.5281/zenodo.20173873)
+
 # HPLC-parameters-derivation-and-retention-time-prediction
 Chromatography Retention Modeling: Quadratic and Neue–Kuss Implementation
 This repository contains the source code and implementation details for predicting solute retention in Reverse-Phase High-Performance Liquid Chromatography (RP-HPLC). The project focuses on deriving and optimizing intrinsic retention parameters using two complementary modeling frameworks.
@@ -72,7 +74,7 @@ Note: The scripts utilize the parallel package to accelerate the iterative optim
 📝 Citation
 If you use these scripts in your research, please cite this repository and the associated manuscript:
 
-1. **Codebase:** Guan, L. (2026). *HPLC Retention Modeling Scripts*, v1.0.0, Zenodo, https://doi.org/10.5281/zenodo.xxxxxx
+1. **Codebase:** Guan, L. (2026). *HPLC Retention Modeling Scripts*, v1.0.0, Zenodo, https://doi.org/10.5281/zenodo.20173874
 2. **Manuscript:** Guan, L., Han, C., Zhu, L., & Wang, B. (2026). *An R-Based Computational Framework Integrating Mechanistic LSER Modeling for Enhanced $\log P_{\text{ow}}$ Determination via Gradient Reversed-Phase HPLC*. (In preparation/Submitted).
 
 📧 Contact
