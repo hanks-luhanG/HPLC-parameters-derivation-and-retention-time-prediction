@@ -2,7 +2,9 @@
 
 # HPLC-parameters-derivation-and-retention-time-prediction
 Chromatography Retention Modeling: Quadratic and Neue–Kuss Implementation
+
 This repository contains the source code and implementation details for predicting solute retention in Reverse-Phase High-Performance Liquid Chromatography (RP-HPLC). The project focuses on deriving and optimizing intrinsic retention parameters using two complementary modeling frameworks.
+
 🔬 Scientific Background
 The scripts implemented here facilitate the transition from isocratic experimental data to gradient retention prediction by solving the fundamental equation of gradient elution.
 Supported Models
